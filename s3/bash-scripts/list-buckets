@@ -1,5 +1,7 @@
 #! /usr/bin/env bash
 
-echo "== List bucket"
+echo "== List buckets"
 
-aws s3api list-buckets | jq -r '.Buckets | sort_by(.CreationDate) | reverse | .[] | .Name'
+# List bucketss and sort them based on Creation date decending order
+# aws s3api list-buckets - returns json response
+aws s3api list-buckets | jq -r '.Buckets | sort_by(.CreationDate) | reverse | .[0:10] | .[] | .Name'

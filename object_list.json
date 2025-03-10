@@ -1,0 +1,22 @@
+{
+  "Objects": [
+    {
+      "Key": "files/arun_1.txt"
+    },
+    {
+      "Key": "files/arun_2.txt"
+    },
+    {
+      "Key": "files/arun_3.txt"
+    },
+    {
+      "Key": "files/arun_4.txt"
+    },
+    {
+      "Key": "files/arun_5.txt"
+    },
+    {
+      "Key": "random_file.txt"
+    }
+  ]
+}
